@@ -1,0 +1,15 @@
+LOG_LEVEL=DEBUG
+QQ_IS_SANDBOX=true
+QQ_BOTS='
+[
+	{
+		"id": "102072922",
+		"token": "3MuKg44sDPeR6cys0MiH83wxwz0QJ5Uh",
+		"secret": "a4MSJ1VkkUzPcbLq",
+		"intent": {
+			"guild_messages": false,
+			"at_messages": true
+		}
+	}
+]
+'

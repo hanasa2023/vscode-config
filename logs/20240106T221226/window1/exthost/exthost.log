@@ -1,0 +1,25 @@
+2024-01-06 22:12:28.851 [info] Extension host with pid 23090 started
+2024-01-06 22:12:28.851 [info] Skipping acquiring lock for /home/hanasa/.config/Code/User/workspaceStorage/11187373a7c45b682a40fb8bb1e03436.
+2024-01-06 22:12:29.258 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-01-06 22:12:29.259 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:c'
+2024-01-06 22:12:30.189 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-01-06 22:12:30.190 [info] ExtensionService#_doActivateExtension manasxx.background-cover, startup: true, activationEvent: '*'
+2024-01-06 22:12:30.205 [info] ExtensionService#_doActivateExtension Dart-Code.dart-code, startup: true, activationEvent: 'workspaceContains:pubspec.yaml'
+2024-01-06 22:12:30.594 [info] ExtensionService#_doActivateExtension ms-vscode.cmake-tools, startup: true, activationEvent: 'workspaceContains:*/CMakeLists.txt,*/*/CMakeLists.txt,*/*/*/CMakeLists.txt'
+2024-01-06 22:12:30.670 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-01-06 22:12:30.671 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-01-06 22:12:30.724 [info] ExtensionService#_doActivateExtension Dart-Code.flutter, startup: false, activationEvent: 'api', root cause: Dart-Code.dart-code
+2024-01-06 22:12:32.433 [info] Eager extensions activated
+2024-01-06 22:12:32.439 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-01-06 22:12:32.440 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-01-06 22:12:32.441 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2024-01-06 22:12:32.455 [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-01-06 22:12:32.477 [info] ExtensionService#_doActivateExtension unthrottled.doki-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-01-06 22:12:32.494 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2024-01-06 22:12:32.565 [info] ExtensionService#_doActivateExtension yy0931.vscode-sqlite3-editor, startup: false, activationEvent: 'onStartupFinished'
+2024-01-06 22:12:34.284 [error] Error: ENOENT: no such file or directory, open '/home/hanasa/.config/Code/User/globalStorage/vscodevim.vim/.registers'
+2024-01-06 22:12:42.683 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-01-06 22:12:42.684 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-01-06 22:14:32.358 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-01-06 22:14:32.977 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-01-06 22:14:33.290 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.

@@ -1,0 +1,233 @@
+2024-01-10 00:01:11.828 [info] Extension host with pid 153787 started
+2024-01-10 00:01:11.828 [info] Skipping acquiring lock for /home/hanasa/.config/Code/User/workspaceStorage/11187373a7c45b682a40fb8bb1e03436.
+2024-01-10 00:01:12.098 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-01-10 00:01:12.100 [info] ExtensionService#_doActivateExtension manasxx.background-cover, startup: true, activationEvent: '*'
+2024-01-10 00:01:12.128 [info] ExtensionService#_doActivateExtension Dart-Code.dart-code, startup: true, activationEvent: 'workspaceContains:pubspec.yaml'
+2024-01-10 00:01:13.154 [info] ExtensionService#_doActivateExtension Dart-Code.flutter, startup: false, activationEvent: 'api', root cause: Dart-Code.dart-code
+2024-01-10 00:01:13.194 [info] ExtensionService#_doActivateExtension ms-vscode.cmake-tools, startup: true, activationEvent: 'workspaceContains:*/CMakeLists.txt,*/*/CMakeLists.txt,*/*/*/CMakeLists.txt'
+2024-01-10 00:01:13.830 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-01-10 00:01:13.831 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-01-10 00:01:17.142 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-01-10 00:01:18.226 [info] Eager extensions activated
+2024-01-10 00:01:18.345 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'api', root cause: ms-vscode.cmake-tools
+2024-01-10 00:01:18.554 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-01-10 00:01:18.555 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-01-10 00:01:18.556 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2024-01-10 00:01:18.565 [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-01-10 00:01:18.639 [info] ExtensionService#_doActivateExtension unthrottled.doki-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-01-10 00:01:18.703 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2024-01-10 00:01:18.916 [info] ExtensionService#_doActivateExtension yy0931.vscode-sqlite3-editor, startup: false, activationEvent: 'onStartupFinished'
+2024-01-10 00:01:21.079 [error] Error: ENOENT: no such file or directory, open '/home/hanasa/.config/Code/User/globalStorage/vscodevim.vim/.registers'
+2024-01-10 00:01:37.145 [info] Extension host terminating: renderer closed the MessagePort
+2024-01-10 00:01:37.181 [warning] Canceled
+2024-01-10 00:01:37.183 [error] Canceled: Canceled
+	at new g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at l.U (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at p.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at setCommandVisiblity (/home/hanasa/.vscode/extensions/dart-code.dart-code-3.76.1/out/dist/extension.js:13823:22)
+	at Object.<anonymous> (/home/hanasa/.vscode/extensions/dart-code.dart-code-3.76.1/out/dist/extension.js:13805:9)
+	at Generator.next (<anonymous>)
+	at /home/hanasa/.vscode/extensions/dart-code.dart-code-3.76.1/out/dist/extension.js:12951:71
+	at new Promise (<anonymous>)
+	at __webpack_modules__.1892.__awaiter (/home/hanasa/.vscode/extensions/dart-code.dart-code-3.76.1/out/dist/extension.js:12947:12)
+	at Object.deactivate (/home/hanasa/.vscode/extensions/dart-code.dart-code-3.76.1/out/dist/extension.js:13804:12)
+	at f.cb (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:9678)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-01-10 00:01:37.183 [error] Canceled: Canceled
+	at new g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at l.U (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at p.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at setCommandVisiblity (/home/hanasa/.vscode/extensions/dart-code.dart-code-3.76.1/out/dist/extension.js:13824:22)
+	at Object.<anonymous> (/home/hanasa/.vscode/extensions/dart-code.dart-code-3.76.1/out/dist/extension.js:13805:9)
+	at Generator.next (<anonymous>)
+	at /home/hanasa/.vscode/extensions/dart-code.dart-code-3.76.1/out/dist/extension.js:12951:71
+	at new Promise (<anonymous>)
+	at __webpack_modules__.1892.__awaiter (/home/hanasa/.vscode/extensions/dart-code.dart-code-3.76.1/out/dist/extension.js:12947:12)
+	at Object.deactivate (/home/hanasa/.vscode/extensions/dart-code.dart-code-3.76.1/out/dist/extension.js:13804:12)
+	at f.cb (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:9678)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-01-10 00:01:37.183 [error] Canceled: Canceled
+	at new g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at l.U (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at p.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at setCommandVisiblity (/home/hanasa/.vscode/extensions/dart-code.dart-code-3.76.1/out/dist/extension.js:13825:22)
+	at Object.<anonymous> (/home/hanasa/.vscode/extensions/dart-code.dart-code-3.76.1/out/dist/extension.js:13805:9)
+	at Generator.next (<anonymous>)
+	at /home/hanasa/.vscode/extensions/dart-code.dart-code-3.76.1/out/dist/extension.js:12951:71
+	at new Promise (<anonymous>)
+	at __webpack_modules__.1892.__awaiter (/home/hanasa/.vscode/extensions/dart-code.dart-code-3.76.1/out/dist/extension.js:12947:12)
+	at Object.deactivate (/home/hanasa/.vscode/extensions/dart-code.dart-code-3.76.1/out/dist/extension.js:13804:12)
+	at f.cb (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:9678)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-01-10 00:01:37.184 [error] Canceled: Canceled
+	at new g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at l.U (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at p.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at setCommandVisiblity (/home/hanasa/.vscode/extensions/dart-code.dart-code-3.76.1/out/dist/extension.js:13826:22)
+	at Object.<anonymous> (/home/hanasa/.vscode/extensions/dart-code.dart-code-3.76.1/out/dist/extension.js:13805:9)
+	at Generator.next (<anonymous>)
+	at /home/hanasa/.vscode/extensions/dart-code.dart-code-3.76.1/out/dist/extension.js:12951:71
+	at new Promise (<anonymous>)
+	at __webpack_modules__.1892.__awaiter (/home/hanasa/.vscode/extensions/dart-code.dart-code-3.76.1/out/dist/extension.js:12947:12)
+	at Object.deactivate (/home/hanasa/.vscode/extensions/dart-code.dart-code-3.76.1/out/dist/extension.js:13804:12)
+	at f.cb (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:9678)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:7808
+	at Array.map (<anonymous>)
+	at f.Y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:7795)
+	at f.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:8068)
+	at s.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-01-10 00:01:37.184 [error] Error: ENOENT: no such file or directory, open '/home/hanasa/.config/Code/User/globalStorage/vscodevim.vim/.registers'
+2024-01-10 00:01:37.188 [error] Canceled: Canceled
+	at new g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at l.U (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at p.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at Object.<anonymous> (/home/hanasa/.vscode/extensions/dart-code.dart-code-3.76.1/out/dist/extension.js:13812:26)
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/hanasa/.vscode/extensions/dart-code.dart-code-3.76.1/out/dist/extension.js:12948:58) setContext undefined
+2024-01-10 00:01:37.189 [error] Canceled: Canceled
+	at new g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at l.U (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at p.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at Object.<anonymous> (/home/hanasa/.vscode/extensions/dart-code.dart-code-3.76.1/out/dist/extension.js:13814:30)
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/hanasa/.vscode/extensions/dart-code.dart-code-3.76.1/out/dist/extension.js:12948:58) setContext undefined
+2024-01-10 00:01:37.189 [error] Canceled: Canceled
+	at new g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:110274)
+	at l.U (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:10866)
+	at P.<computed>.j.charCodeAt.P.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:8317)
+	at d.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139555)
+	at d.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at p.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138317)
+	at d.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:140094)
+	at d.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:139086)
+	at d.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:138993)
+	at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:21333)
+	at Object.<anonymous> (/home/hanasa/.vscode/extensions/dart-code.dart-code-3.76.1/out/dist/extension.js:13815:30)
+	at Generator.next (<anonymous>)
+	at fulfilled (/home/hanasa/.vscode/extensions/dart-code.dart-code-3.76.1/out/dist/extension.js:12948:58) setContext undefined
+2024-01-10 00:01:37.226 [info] Extension host with pid 153787 exiting with code 0
+2024-01-10 00:01:38.855 [info] Extension host with pid 154722 started
+2024-01-10 00:01:38.855 [info] Skipping acquiring lock for /home/hanasa/.config/Code/User/workspaceStorage/a5184c3099774a3ce75b41dc3ad7482c.
+2024-01-10 00:01:38.957 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-01-10 00:01:38.958 [info] ExtensionService#_doActivateExtension batisteo.vscode-django, startup: false, activationEvent: 'onLanguage:python'
+2024-01-10 00:01:38.988 [info] ExtensionService#_doActivateExtension KevinRose.vsc-python-indent, startup: false, activationEvent: 'onLanguage:python'
+2024-01-10 00:01:38.995 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2024-01-10 00:01:38.996 [info] ExtensionService#_doActivateExtension njpwerner.autodocstring, startup: false, activationEvent: 'onLanguage:python'
+2024-01-10 00:01:39.044 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.intellicode-api-usage-examples, startup: false, activationEvent: 'onLanguage:python'
+2024-01-10 00:01:39.168 [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:python'
+2024-01-10 00:01:39.442 [warning] Using default string since no string found in i18n bundle that has the key: You need to select a Python interpreter before you start debugging.
+
+Tip: click on "Select Interpreter" in the status bar.
+2024-01-10 00:01:39.443 [warning] Using default string since no string found in i18n bundle that has the key: The Python extension now includes Pylance to improve completions, code navigation, overall performance and much more! You can learn more about the update and learn how to change your language server [here](https://aka.ms/new-python-bundle).
+
+Read Pylance's license [here](https://marketplace.visualstudio.com/items/ms-python.vscode-pylance/license).
+2024-01-10 00:01:39.444 [warning] Using default string since no string found in i18n bundle that has the key: The Microsoft Python Language Server has reached end of life. Your language server has been set to the default for Python in VS Code, Pylance.
+
+If you'd like to change your language server, you can learn about how to do so [here](https://devblogs.microsoft.com/python/python-in-visual-studio-code-may-2021-release/#configuring-your-language-server).
+
+Read Pylance's license [here](https://marketplace.visualstudio.com/items/ms-python.vscode-pylance/license).
+2024-01-10 00:01:40.228 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-01-10 00:01:40.230 [info] ExtensionService#_doActivateExtension manasxx.background-cover, startup: true, activationEvent: '*'
+2024-01-10 00:01:40.729 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-01-10 00:01:42.800 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-01-10 00:01:42.801 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-01-10 00:01:43.093 [info] Eager extensions activated
+2024-01-10 00:01:43.196 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-01-10 00:01:43.197 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-01-10 00:01:43.198 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2024-01-10 00:01:43.203 [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-01-10 00:01:43.252 [info] ExtensionService#_doActivateExtension unthrottled.doki-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-01-10 00:01:43.279 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2024-01-10 00:01:43.384 [info] ExtensionService#_doActivateExtension yy0931.vscode-sqlite3-editor, startup: false, activationEvent: 'onStartupFinished'
+2024-01-10 00:01:45.202 [error] Error: ENOENT: no such file or directory, open '/home/hanasa/.config/Code/User/globalStorage/vscodevim.vim/.registers'
+2024-01-10 00:06:52.420 [info] Extension host terminating: renderer closed the MessagePort
+2024-01-10 00:06:52.440 [error] TypeError: e.clear is not a function
+	at _.cleanUp (/home/hanasa/.vscode/extensions/ms-python.python-2023.20.0/out/client/extension.js:2:2412859)
+	at _.shutdown (/home/hanasa/.vscode/extensions/ms-python.python-2023.20.0/out/client/extension.js:2:2412035)
+	at _.stop (/home/hanasa/.vscode/extensions/ms-python.python-2023.20.0/out/client/extension.js:2:2411463)
+	at _.stop (/home/hanasa/.vscode/extensions/ms-python.python-2023.20.0/out/client/extension.js:2:2577851)
+	at Object.stop (/home/hanasa/.vscode/extensions/ms-python.python-2023.20.0/out/client/extension.js:2:52694)
+	at Object.stop (/home/hanasa/.vscode/extensions/ms-python.vscode-pylance-2023.11.10/dist/extension.bundle.js:1:167421)
+	at _0x245439.<computed>._stopClient (/home/hanasa/.vscode/extensions/ms-python.vscode-pylance-2023.11.10/dist/extension.bundle.js:1:110729)
+	at _0x245439.<computed>._createNewRequest (/home/hanasa/.vscode/extensions/ms-python.vscode-pylance-2023.11.10/dist/extension.bundle.js:1:110308)
+2024-01-10 00:06:52.440 [error] TypeError: e.clear is not a function
+	at _.cleanUp (/home/hanasa/.vscode/extensions/ms-python.python-2023.20.0/out/client/extension.js:2:2412859)
+	at _.shutdown (/home/hanasa/.vscode/extensions/ms-python.python-2023.20.0/out/client/extension.js:2:2412035)
+	at _.stop (/home/hanasa/.vscode/extensions/ms-python.python-2023.20.0/out/client/extension.js:2:2411463)
+	at _.stop (/home/hanasa/.vscode/extensions/ms-python.python-2023.20.0/out/client/extension.js:2:2577851)
+	at Object.stop (/home/hanasa/.vscode/extensions/ms-python.python-2023.20.0/out/client/extension.js:2:52694)
+	at Object.stop (/home/hanasa/.vscode/extensions/ms-python.vscode-pylance-2023.11.10/dist/extension.bundle.js:1:167421)
+	at _0x245439.<computed>._stopClient (/home/hanasa/.vscode/extensions/ms-python.vscode-pylance-2023.11.10/dist/extension.bundle.js:1:110729)
+	at _0x245439.<computed>._createNewRequest (/home/hanasa/.vscode/extensions/ms-python.vscode-pylance-2023.11.10/dist/extension.bundle.js:1:110308)
+2024-01-10 00:06:52.442 [error] Error: ENOENT: no such file or directory, open '/home/hanasa/.config/Code/User/globalStorage/vscodevim.vim/.registers'
+2024-01-10 00:06:52.442 [info] Extension host with pid 154722 exiting with code 0

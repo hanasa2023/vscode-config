@@ -1,0 +1,44 @@
+2023-12-05 16:05:14.138 [info] Telemetry level is off
+2023-12-05 16:05:14.138 [info] Experiments are disabled, only manually opted experiments are active.
+2023-12-05 16:05:14.138 [info] Default formatter is set to null for workspace /home/hanasa/DL
+2023-12-05 16:05:14.138 [info] Test server listening.
+2023-12-05 16:05:14.138 [info] Python 解释器路径: ~/miniconda3/bin/python
+2023-12-05 16:05:17.442 [info] 正在启动 Pylance 语言服务器。
+2023-12-05 16:05:17.456 [info] > conda info --json
+2023-12-05 16:05:17.476 [info] > /opt/miniconda3/bin/conda info --json
+2023-12-05 16:05:17.486 [info] > ~/.conda/bin/conda info --json
+2023-12-05 16:05:17.504 [info] > ~/miniconda3/bin/conda info --json
+2023-12-05 16:17:48.251 [info] Discover tests for workspace name: DL - uri: /home/hanasa/DL/3_2.py
+2023-12-05 16:17:50.181 [info] > ~/miniconda3/bin/conda info --json
+2023-12-05 16:17:50.995 [info] Send text to terminal: source /home/hanasa/miniconda3/bin/activate base
+2023-12-05 16:17:51.497 [info] Send text to terminal: /home/hanasa/miniconda3/bin/python /home/hanasa/DL/3_2.py
+2023-12-05 16:18:30.757 [info] Discover tests for workspace name: DL - uri: /home/hanasa/DL/3_2.py
+2023-12-05 16:18:32.044 [info] Send text to terminal: /home/hanasa/miniconda3/bin/python /home/hanasa/DL/3_2.py
+2023-12-05 16:19:14.203 [info] Discover tests for workspace name: DL - uri: /home/hanasa/DL/3_2.py
+2023-12-05 16:19:15.222 [info] Send text to terminal: /home/hanasa/miniconda3/bin/python /home/hanasa/DL/3_2.py
+2023-12-05 16:31:31.272 [info] Send text to terminal: /home/hanasa/miniconda3/bin/python /home/hanasa/DL/3_2.py
+2023-12-05 16:31:31.514 [info] Discover tests for workspace name: DL - uri: /home/hanasa/DL/3_2.py
+2023-12-05 16:32:04.853 [info] Discover tests for workspace name: DL - uri: /home/hanasa/DL/3_2.py
+2023-12-05 16:32:06.887 [info] Send text to terminal: /home/hanasa/miniconda3/bin/python /home/hanasa/DL/3_2.py
+2023-12-05 16:32:22.322 [info] Discover tests for workspace name: DL - uri: /home/hanasa/DL/3_2.py
+2023-12-05 16:32:23.367 [info] Send text to terminal: /home/hanasa/miniconda3/bin/python /home/hanasa/DL/3_2.py
+2023-12-05 16:32:35.021 [info] Discover tests for workspace name: DL - uri: /home/hanasa/DL/3_2.py
+2023-12-05 16:32:52.088 [info] Discover tests for workspace name: DL - uri: /home/hanasa/DL/3_2.py
+2023-12-05 16:32:53.922 [info] Send text to terminal: /home/hanasa/miniconda3/bin/python /home/hanasa/DL/3_2.py
+2023-12-05 16:34:21.718 [info] Discover tests for workspace name: DL - uri: /home/hanasa/DL/3_2.py
+2023-12-05 16:34:23.118 [info] Send text to terminal: /home/hanasa/miniconda3/bin/python /home/hanasa/DL/3_2.py
+2023-12-05 16:36:59.576 [info] Discover tests for workspace name: DL - uri: /home/hanasa/DL/3_2.py
+2023-12-05 16:37:05.357 [info] Discover tests for workspace name: DL - uri: /home/hanasa/DL/3_2.py
+2023-12-05 16:37:06.378 [info] Send text to terminal: /home/hanasa/miniconda3/bin/python /home/hanasa/DL/3_2.py
+2023-12-05 16:47:55.320 [info] Discover tests for workspace name: DL - uri: /home/hanasa/DL/3_3.py
+2023-12-05 16:55:34.382 [info] > ~/miniconda3/bin/python ~/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/normalizeSelection.py
+2023-12-05 16:55:34.426 [info] Send text to terminal: /home/hanasa/miniconda3/bin/python
+2023-12-05 16:55:35.427 [info] Send text to terminal: for i in range(num_epochs):
+
+
+2023-12-05 16:59:35.216 [info] Discover tests for workspace name: DL - uri: /home/hanasa/DL/3_3.py
+2023-12-05 16:59:39.213 [info] Send text to terminal: /home/hanasa/miniconda3/bin/python /home/hanasa/DL/3_3.py
+2023-12-05 17:00:14.768 [info] Discover tests for workspace name: DL - uri: /home/hanasa/DL/3_3.py
+2023-12-05 17:00:18.516 [info] Send text to terminal: /home/hanasa/miniconda3/bin/python /home/hanasa/DL/3_3.py
+2023-12-05 17:00:41.676 [info] Discover tests for workspace name: DL - uri: /home/hanasa/DL/3_3.py
+2023-12-05 17:00:42.296 [info] Send text to terminal: /home/hanasa/miniconda3/bin/python /home/hanasa/DL/3_3.py

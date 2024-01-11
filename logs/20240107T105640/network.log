@@ -1,0 +1,2 @@
+2024-01-07 10:56:41.315 [error] electron #1: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_INTERNET_DISCONNECTED
+2024-01-07 10:56:41.347 [error] electron #2: https://update.code.visualstudio.com/api/update/linux-x64/stable/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2 - error undefined net::ERR_INTERNET_DISCONNECTED

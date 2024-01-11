@@ -1,0 +1,4 @@
+[Error - 11:29:44 PM] Request textDocument/documentColor failed.
+  Message: File is not being analyzed
+  Code: -32007 
+/home/hanasa/AndroidStudioProjects/helloworld/lib/main.dart

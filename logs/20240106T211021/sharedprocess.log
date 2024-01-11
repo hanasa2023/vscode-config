@@ -1,0 +1,97 @@
+2024-01-06 21:10:27.229 [error] [uncaught exception in sharedProcess]: Channel name 'extensionRecommendationNotification' timed out after 1000ms
+2024-01-06 21:13:18.256 [info] Getting Manifest... ms-vscode.cpptools-extension-pack
+2024-01-06 21:13:18.265 [info] Installing extension: ms-vscode.cpptools-extension-pack
+2024-01-06 21:13:19.578 [info] Getting Manifest... ms-vscode.cpptools
+2024-01-06 21:13:53.652 [info] Getting Manifest... ms-vscode.cmake-tools
+2024-01-06 21:14:00.817 [info] Getting Manifest... twxs.cmake
+2024-01-06 21:14:01.329 [info] Getting Manifest... ms-vscode.cpptools-themes
+2024-01-06 21:14:01.796 [info] Installing extension: ms-vscode.cpptools ms-vscode.cpptools-extension-pack
+2024-01-06 21:14:01.796 [info] Installing extension: ms-vscode.cmake-tools ms-vscode.cpptools-extension-pack
+2024-01-06 21:14:01.796 [info] Installing extension: twxs.cmake ms-vscode.cpptools-extension-pack
+2024-01-06 21:14:01.797 [info] Installing extension: ms-vscode.cpptools-themes ms-vscode.cpptools-extension-pack
+2024-01-06 21:14:08.844 [warning] Extension signature verification failed with error 'UnknownError': ms-vscode.cmake-tools
+2024-01-06 21:14:09.092 [info] Extracted extension to file:///home/hanasa/.vscode/extensions/ms-vscode.cmake-tools-1.16.32: ms-vscode.cmake-tools
+2024-01-06 21:14:09.103 [info] Renamed to /home/hanasa/.vscode/extensions/ms-vscode.cmake-tools-1.16.32
+2024-01-06 21:14:09.110 [warning] [cmake-tools]: 无法找到键 cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description 的消息。
+2024-01-06 21:14:09.111 [info] Extracting extension completed. ms-vscode.cmake-tools
+2024-01-06 21:14:09.199 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/hanasa/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/hanasa/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30056)
+    at a (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30170)
+    at s.fb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36175)
+    at s.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28621)
+    at async E.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15732)
+    at async Y.tb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:100:111319)
+2024-01-06 21:14:11.497 [warning] Extension signature verification failed with error 'UnknownError': ms-vscode.cpptools-themes
+2024-01-06 21:14:11.514 [info] Extracted extension to file:///home/hanasa/.vscode/extensions/ms-vscode.cpptools-themes-2.0.0: ms-vscode.cpptools-themes
+2024-01-06 21:14:11.517 [info] Renamed to /home/hanasa/.vscode/extensions/ms-vscode.cpptools-themes-2.0.0
+2024-01-06 21:14:11.518 [info] Extracting extension completed. ms-vscode.cpptools-themes
+2024-01-06 21:14:11.602 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/hanasa/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/hanasa/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30056)
+    at a (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30170)
+    at s.fb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36175)
+    at s.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28621)
+    at async E.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15732)
+    at async Y.tb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:100:111319)
+2024-01-06 21:14:13.303 [warning] Extension signature verification failed with error 'UnknownError': twxs.cmake
+2024-01-06 21:14:13.479 [info] Extracted extension to file:///home/hanasa/.vscode/extensions/twxs.cmake-0.0.17: twxs.cmake
+2024-01-06 21:14:13.485 [info] Renamed to /home/hanasa/.vscode/extensions/twxs.cmake-0.0.17
+2024-01-06 21:14:13.487 [info] Extracting extension completed. twxs.cmake
+2024-01-06 21:14:13.571 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/hanasa/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/hanasa/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30056)
+    at a (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30170)
+    at s.fb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36175)
+    at s.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28621)
+    at async E.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15732)
+    at async Y.tb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:100:111319)
+2024-01-06 21:14:26.743 [warning] Extension signature verification failed with error 'UnknownError': ms-vscode.cpptools
+2024-01-06 21:14:29.423 [info] Extracted extension to file:///home/hanasa/.vscode/extensions/ms-vscode.cpptools-1.18.5-linux-x64: ms-vscode.cpptools
+2024-01-06 21:14:29.434 [info] Renamed to /home/hanasa/.vscode/extensions/ms-vscode.cpptools-1.18.5-linux-x64
+2024-01-06 21:14:29.454 [info] Extracting extension completed. ms-vscode.cpptools
+2024-01-06 21:14:29.576 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/hanasa/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/hanasa/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30056)
+    at a (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30170)
+    at s.fb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36175)
+    at s.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28621)
+    at async E.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15732)
+    at async Y.tb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:100:111319)
+2024-01-06 21:14:29.580 [warning] [cmake-tools]: 无法找到键 cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description 的消息。
+2024-01-06 21:14:30.838 [warning] Extension signature verification failed with error 'UnknownError': ms-vscode.cpptools-extension-pack
+2024-01-06 21:14:30.849 [info] Extracted extension to file:///home/hanasa/.vscode/extensions/ms-vscode.cpptools-extension-pack-1.3.0: ms-vscode.cpptools-extension-pack
+2024-01-06 21:14:30.854 [info] Renamed to /home/hanasa/.vscode/extensions/ms-vscode.cpptools-extension-pack-1.3.0
+2024-01-06 21:14:30.856 [info] Extracting extension completed. ms-vscode.cpptools-extension-pack
+2024-01-06 21:14:30.872 [info] Extension installed successfully: ms-vscode.cmake-tools
+2024-01-06 21:14:30.873 [info] Extension installed successfully: ms-vscode.cpptools-themes
+2024-01-06 21:14:30.873 [info] Extension installed successfully: twxs.cmake
+2024-01-06 21:14:30.873 [info] Extension installed successfully: ms-vscode.cpptools
+2024-01-06 21:14:30.873 [info] Extension installed successfully: ms-vscode.cpptools-extension-pack
+2024-01-06 21:14:30.941 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/hanasa/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/hanasa/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30056)
+    at a (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30170)
+    at s.fb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36175)
+    at s.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28621)
+    at async E.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15732)
+    at async Y.tb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:100:111319)
+2024-01-06 21:14:42.496 [info] Getting Manifest... ms-vscode.cpptools
+2024-01-06 21:14:48.744 [info] Installing extension: ms-vscode.cpptools
+2024-01-06 21:14:48.884 [warning] [cmake-tools]: 无法找到键 cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description 的消息。
+2024-01-06 21:14:49.000 [warning] [cmake-tools]: 无法找到键 cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description 的消息。
+2024-01-06 21:14:49.155 [warning] [cmake-tools]: 无法找到键 cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description 的消息。
+2024-01-06 21:15:17.006 [warning] Extension signature verification failed with error 'UnknownError': ms-vscode.cpptools
+2024-01-06 21:15:19.929 [info] Extracted extension to file:///home/hanasa/.vscode/extensions/ms-vscode.cpptools-1.19.1-linux-x64: ms-vscode.cpptools
+2024-01-06 21:15:19.937 [info] Renamed to /home/hanasa/.vscode/extensions/ms-vscode.cpptools-1.19.1-linux-x64
+2024-01-06 21:15:19.955 [info] Extracting extension completed. ms-vscode.cpptools
+2024-01-06 21:15:19.976 [info] Extension installed successfully: ms-vscode.cpptools
+2024-01-06 21:15:19.994 [info] Marked extension as uninstalled ms-vscode.cpptools-1.18.5-linux-x64
+2024-01-06 21:15:20.050 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/hanasa/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/hanasa/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30056)
+    at a (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30170)
+    at s.fb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36175)
+    at s.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28621)
+    at async E.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15732)
+    at async Y.tb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:100:111319)
+2024-01-06 21:15:35.484 [warning] [cmake-tools]: 无法找到键 cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description 的消息。
+2024-01-06 21:20:35.593 [warning] [cmake-tools]: 无法找到键 cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description 的消息。
+2024-01-06 21:25:35.664 [warning] [cmake-tools]: 无法找到键 cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description 的消息。
+2024-01-06 21:30:35.740 [warning] [cmake-tools]: 无法找到键 cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description 的消息。
+2024-01-06 21:35:35.855 [warning] [cmake-tools]: 无法找到键 cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description 的消息。
+2024-01-06 21:40:35.932 [warning] [cmake-tools]: 无法找到键 cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description 的消息。

@@ -1,0 +1,11 @@
+2023-12-05 16:05:17.420 [info] [Info  - 4:05:17 PM] (2507) Pylance language server 2023.11.10 (pyright 088ebaa5) starting
+2023-12-05 16:05:17.420 [info] [Info  - 4:05:17 PM] (2507) Server root directory: /home/hanasa/.vscode/extensions/ms-python.vscode-pylance-2023.11.10/dist
+2023-12-05 16:05:17.421 [info] [Info  - 4:05:17 PM] (2507) Starting service instance "DL"
+2023-12-05 16:05:17.535 [info] [Info  - 4:05:17 PM] (2507) Setting pythonPath for service "DL": "/home/hanasa/miniconda3/bin/python"
+2023-12-05 16:05:17.536 [info] [Info  - 4:05:17 PM] (2507) Setting environmentName for service "DL": "3.11.5 (base conda)"
+2023-12-05 16:05:17.579 [info] [Info  - 4:05:17 PM] (2507) Assuming Python version 3.11
+2023-12-05 16:05:17.680 [info] [Info  - 4:05:17 PM] (2507) Found 3 source files
+2023-12-05 16:05:23.847 [info] [Info  - 4:05:23 PM] (2507) [IDX(2)] Long operation: index execution environment /home/hanasa/DL (4019ms)
+2023-12-05 16:05:23.848 [info] [Info  - 4:05:23 PM] (2507) [IDX(2)] Long operation: index packages /home/hanasa/DL (4039ms)
+2023-12-05 16:05:52.194 [info] [Info  - 4:05:52 PM] (2507) Found 4 source files
+2023-12-05 16:44:45.405 [info] [Info  - 4:44:45 PM] (2507) Found 5 source files

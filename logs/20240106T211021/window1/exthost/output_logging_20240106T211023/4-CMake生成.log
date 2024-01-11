@@ -1,0 +1,20 @@
+[proc] 执行命令: cmake --version
+[proc] 执行命令: cmake -E capabilities
+[variant] 已加载一组新变量
+[kit] 检测到工具包定义版本已从 undefined 更改为 2。扫描工具包但不显示提示。
+[proc] 执行命令: /usr/bin/clang -v
+[proc] 执行命令: /usr/bin/clang-16 -v
+[proc] 执行命令: /usr/bin/clang-cl -v
+[proc] 执行命令: /usr/bin/gcc -v
+[proc] 执行命令: /usr/bin/x86_64-linux-gnu-gcc -v
+[proc] 执行命令: /usr/bin/x86_64-pc-linux-gnu-gcc -v
+[proc] 执行命令: /usr/bin/x86_64-pc-linux-gnu-gcc-13.2.1 -v
+[proc] 执行命令: /usr/bin/x86_64-pc-linux-gnu-gcc -v
+[proc] 执行命令: /usr/bin/clang -v
+[kit] 已找到工具包(受信任): Clang 16.0.6 x86_64-pc-linux-gnu
+[kit] 已找到工具包(受信任): Clang 16.0.6 x86_64-pc-linux-gnu
+[kit] 已找到工具包(受信任): Clang-cl 16.0.6 x86_64-pc-windows-msvc
+[kit] 已找到工具包(受信任): GCC 13.2.1 x86_64-pc-linux-gnu
+[kit] 已找到工具包(受信任): GCC 13.2.1 x86_64-pc-linux-gnu
+[kit] 已找到工具包(受信任): GCC 13.2.1 x86_64-pc-linux-gnu
+[kit] 已找到工具包(受信任): GCC 13.2.1 x86_64-pc-linux-gnu

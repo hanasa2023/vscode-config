@@ -1,0 +1,17 @@
+2023-12-23 00:57:36.356 [info] Extension host with pid 124117 started
+2023-12-23 00:57:36.357 [info] Skipping acquiring lock for /home/hanasa/.config/Code/User/workspaceStorage/11187373a7c45b682a40fb8bb1e03436.
+2023-12-23 00:57:36.583 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-12-23 00:57:36.584 [info] ExtensionService#_doActivateExtension Dart-Code.dart-code, startup: false, activationEvent: 'onLanguage:dart'
+2023-12-23 00:57:36.681 [info] Extension host terminating: renderer closed the MessagePort
+2023-12-23 00:57:36.682 [info] Extension host with pid 124117 exiting with code 0
+2023-12-23 00:57:36.690 [error] Canceled: Canceled
+	at Object.C [as $6] (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:7675
+	at Array.forEach (<anonymous>)
+	at l.dispose (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:7613)
+	at f.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:8044)
+	at s.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1513)
+	at a (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:9802)
+	at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:6227)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined

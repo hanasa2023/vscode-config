@@ -1,0 +1,6 @@
+2024-01-06 22:12:27.095 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'registerIssueDataProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-01-06 22:12:27.904 [info] Started local extension host with pid 23090.
+2024-01-06 22:12:28.552 [warning] [cmake-tools]: 无法找到键 cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description 的消息。
+2024-01-06 22:12:28.796 [warning] [twxs.cmake]: 无法注册“cmake.cmakePath”。此属性已注册。
+2024-01-06 22:12:33.621 [info] [perf] Render performance baseline is 83ms
+2024-01-06 22:12:34.287 [error] ENOENT: no such file or directory, open '/home/hanasa/.config/Code/User/globalStorage/vscodevim.vim/.registers': Error: ENOENT: no such file or directory, open '/home/hanasa/.config/Code/User/globalStorage/vscodevim.vim/.registers'

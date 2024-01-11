@@ -1,0 +1,124 @@
+{
+    "workbench.colorTheme": "5412c41d-f76b-4488-85a7-1ae1a63bbfcc",
+    "window.menuBarVisibility": "toggle",
+    "editor.fontSize": 20,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.verticalScrollbarSize": 0,
+    "security.workspace.trust.untrustedFiles": "newWindow",
+    "security.workspace.trust.startupPrompt": "never",
+    "security.workspace.trust.enabled": false,
+    "editor.fontFamily": "'Maple Mono',  'CaskaydiaCove Nerd Font Mono','monospace', monospace",
+    "extensions.autoUpdate": false,
+    "workbench.statusBar.visible": false,
+    "terminal.external.linuxExec": "kitty",
+    "terminal.explorerKind": "both",
+    "terminal.sourceControlRepositoriesKind": "both",
+    "telemetry.telemetryLevel": "off",
+    "workbench.iconTheme": "eq-material-theme-icons",
+    "vim.smartRelativeLine": true,
+    "vim.leader": "<space>",
+    "vim.insertModeKeyBindings": [
+      //Use "jj" to replace Esc 
+        {
+          "before": [
+            "j",
+            "j"
+          ],
+          "after": [
+            "<Esc>"
+          ]
+        },
+      ],
+      "vim.normalModeKeyBindingsNonRecursive": [
+        {
+          "before": [
+            "J"
+          ],
+          "after": [
+            "5",
+            "j"
+          ]
+        },
+
+        {
+          "before": [
+            "K"
+          ],
+          "after": [
+            "5",
+            "k"
+          ]
+        },
+        //Cancel highlight
+        {
+          "before": [
+            "<leader><CR>"
+          ],
+          "commands": [
+            ":nohl"
+          ]
+        },
+       //Quick Save 
+        {
+          "before": [
+            "S"
+          ],
+          "commands": [
+            ":w<CR>"
+          ]
+        },
+        //Quick quit
+        {
+          "before": [
+            "Q"
+          ],
+          "commands": [
+            ":q<CR>"
+          ]
+        },
+        //Quick reload(not supported now)
+        {
+          "before": [
+            "R"
+          ],
+          "commands": [
+            ":so<CR>"
+          ]
+        },
+        
+        {
+          "before": [
+            "s"
+          ],
+          "commands": [
+            ":<nop><CR>"
+          ]
+        }
+      ],
+      "dart.flutterSdkPath": "/home/hanasa/flutter",
+      "editor.tokenColorCustomizations": {
+        "textMateRules": [
+          {
+            "scope": [
+              "comment",
+              "keyword",
+              "storage.modifier",
+              "storage.type.class.js",
+              "storage.type.js"
+            ],
+            "settings": {
+              "fontStyle": "italic bold"
+            }
+          },
+          {
+            "scope": [
+              "keyword.control.conditional",
+              "keyword.operator"
+            ],
+            "settings": {
+              "fontStyle": ""
+            }
+          }
+        ]
+      },
+}

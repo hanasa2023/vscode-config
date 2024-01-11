@@ -1,0 +1,111 @@
+2024-01-10 00:01:40.443 [info] Telemetry level is off
+2024-01-10 00:01:40.443 [info] Experiments are disabled, only manually opted experiments are active.
+2024-01-10 00:01:40.443 [info] Default formatter is set to null for workspace /home/hanasa/DL
+2024-01-10 00:01:40.443 [info] Test server listening.
+2024-01-10 00:01:40.443 [info] Python 解释器路径: ~/miniconda3/bin/python
+2024-01-10 00:01:44.399 [info] > conda info --json
+2024-01-10 00:01:44.478 [info] > /opt/miniconda3/bin/conda info --json
+2024-01-10 00:01:44.494 [info] > ~/.conda/bin/conda info --json
+2024-01-10 00:01:44.531 [info] > ~/miniconda3/bin/conda info --json
+2024-01-10 00:01:44.560 [info] Found: /bin/python --> /bin/python3.11
+2024-01-10 00:01:44.561 [info] Found: /bin/python2 --> /bin/python2.7
+2024-01-10 00:01:44.561 [info] Found: /bin/python2.7 --> /bin/python2.7
+2024-01-10 00:01:44.565 [info] Found: /bin/python3 --> /bin/python3.11
+2024-01-10 00:01:44.566 [info] Found: /bin/python3.11 --> /bin/python3.11
+2024-01-10 00:01:44.685 [info] Found: /sbin/python --> /sbin/python3.11
+2024-01-10 00:01:44.686 [info] Found: /sbin/python2 --> /sbin/python2.7
+2024-01-10 00:01:44.687 [info] Found: /sbin/python2.7 --> /sbin/python2.7
+2024-01-10 00:01:44.687 [info] Found: /sbin/python3 --> /sbin/python3.11
+2024-01-10 00:01:44.687 [info] Found: /sbin/python3.11 --> /sbin/python3.11
+2024-01-10 00:01:44.702 [info] Found: /usr/bin/python --> /usr/bin/python3.11
+2024-01-10 00:01:44.703 [info] Found: /usr/bin/python2 --> /usr/bin/python2.7
+2024-01-10 00:01:44.703 [info] Found: /usr/bin/python2.7 --> /usr/bin/python2.7
+2024-01-10 00:01:44.704 [info] Found: /usr/bin/python3 --> /usr/bin/python3.11
+2024-01-10 00:01:44.706 [info] Found: /usr/bin/python3.11 --> /usr/bin/python3.11
+2024-01-10 00:01:44.808 [info] Found: /usr/sbin/python --> /usr/sbin/python3.11
+2024-01-10 00:01:44.809 [info] Found: /usr/sbin/python2 --> /usr/sbin/python2.7
+2024-01-10 00:01:44.809 [info] Found: /usr/sbin/python2.7 --> /usr/sbin/python2.7
+2024-01-10 00:01:44.809 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.11
+2024-01-10 00:01:44.809 [info] Found: /usr/sbin/python3.11 --> /usr/sbin/python3.11
+2024-01-10 00:01:44.850 [info] > /bin/python -I ~/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py
+2024-01-10 00:01:44.900 [info] > /bin/python2 -I ~/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py
+2024-01-10 00:01:44.941 [warning] [Error: Command failed: /bin/python2 -I /home/hanasa/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py /home/hanasa/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py
+Unknown option: -I
+usage: /bin/python2 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:431:12)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:322:12)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/bin/python2 -I /home/hanasa/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py /home/hanasa/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py'
+}
+2024-01-10 00:01:44.942 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2024-01-10 00:01:44.962 [info] > /bin/python2 ~/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py
+2024-01-10 00:01:44.997 [info] > /sbin/python -I ~/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py
+2024-01-10 00:01:45.055 [info] > /sbin/python2 -I ~/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py
+2024-01-10 00:01:45.070 [warning] [Error: Command failed: /sbin/python2 -I /home/hanasa/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py /home/hanasa/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py
+Unknown option: -I
+usage: /sbin/python2 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:431:12)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:322:12)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/sbin/python2 -I /home/hanasa/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py /home/hanasa/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py'
+}
+2024-01-10 00:01:45.070 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2024-01-10 00:01:45.097 [info] > /sbin/python2 ~/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py
+2024-01-10 00:01:45.168 [info] > /usr/bin/python -I ~/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py
+2024-01-10 00:01:45.250 [info] > /usr/bin/python2 -I ~/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py
+2024-01-10 00:01:45.292 [warning] [Error: Command failed: /usr/bin/python2 -I /home/hanasa/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py /home/hanasa/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py
+Unknown option: -I
+usage: /usr/bin/python2 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:431:12)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:322:12)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/usr/bin/python2 -I /home/hanasa/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py /home/hanasa/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py'
+}
+2024-01-10 00:01:45.293 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2024-01-10 00:01:45.318 [info] > /usr/bin/python2 ~/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py
+2024-01-10 00:01:45.377 [info] > /usr/sbin/python -I ~/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py
+2024-01-10 00:01:45.445 [info] > /usr/sbin/python2 -I ~/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py
+2024-01-10 00:01:45.455 [warning] [Error: Command failed: /usr/sbin/python2 -I /home/hanasa/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py /home/hanasa/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py
+Unknown option: -I
+usage: /usr/sbin/python2 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:431:12)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:322:12)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/usr/sbin/python2 -I /home/hanasa/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py /home/hanasa/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py'
+}
+2024-01-10 00:01:45.455 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2024-01-10 00:01:45.479 [info] > /usr/sbin/python2 ~/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py
+2024-01-10 00:01:46.157 [info] 正在启动 Pylance 语言服务器。
+2024-01-10 00:01:46.709 [info] > ~/miniconda3/bin/python -I ~/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py

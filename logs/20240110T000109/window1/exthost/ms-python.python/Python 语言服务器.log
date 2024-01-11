@@ -1,0 +1,10 @@
+2024-01-10 00:01:46.122 [info] [Info  - 12:01:46 AM] (155202) Pylance language server 2023.11.10 (pyright 088ebaa5) starting
+2024-01-10 00:01:46.122 [info] [Info  - 12:01:46 AM] (155202) Server root directory: /home/hanasa/.vscode/extensions/ms-python.vscode-pylance-2023.11.10/dist
+2024-01-10 00:01:46.123 [info] [Info  - 12:01:46 AM] (155202) Starting service instance "DL"
+2024-01-10 00:01:46.263 [info] [Info  - 12:01:46 AM] (155202) Setting pythonPath for service "DL": "/home/hanasa/miniconda3/bin/python"
+2024-01-10 00:01:46.263 [info] [Info  - 12:01:46 AM] (155202) Setting environmentName for service "DL": "3.11.5 (base conda)"
+2024-01-10 00:01:46.343 [info] [Info  - 12:01:46 AM] (155202) Assuming Python version 3.11
+2024-01-10 00:01:46.486 [info] [Info  - 12:01:46 AM] (155202) Found 6 source files
+2024-01-10 00:01:52.392 [info] [Info  - 12:01:52 AM] (155202) [BG(1)] Long operation: getSemanticTokens full at /home/hanasa/DL/3_5.py (4227ms)
+2024-01-10 00:01:57.835 [info] [Info  - 12:01:57 AM] (155202) [IDX(2)] Long operation: index execution environment /home/hanasa/DL (7041ms)
+2024-01-10 00:01:57.842 [info] [Info  - 12:01:57 AM] (155202) [IDX(2)] Long operation: index packages /home/hanasa/DL (7087ms)

@@ -1,0 +1,8 @@
+2024-01-06 21:10:21.221 [info] update#setState idle
+2024-01-06 21:10:51.225 [info] update#setState checking for updates
+2024-01-06 21:10:51.394 [info] update#setState idle
+2024-01-06 22:12:02.696 [error] CodeWindow: detected unresponsive
+2024-01-06 22:12:17.412 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-06 22:12:17.424 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2024-01-06 22:12:17.424 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 2215]: crashed with code 15 and reason 'killed'
+2024-01-06 22:12:17.488 [info] Extension host with pid 2203 exited with code: 0, signal: unknown.
